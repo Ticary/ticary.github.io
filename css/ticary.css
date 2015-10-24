@@ -77,8 +77,9 @@ li:active {
     background-color: #8c0a0a;
 }
 
-a:active {
-    background-color: #aaaaaa;
+h1.page-header{
+    padding-top: 20px;
+
 }
 /* carousel */
 #quote-carousel
