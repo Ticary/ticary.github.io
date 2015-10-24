@@ -28,6 +28,9 @@
     font-size: 45px;
 }
 
+#services img{
+    height: 450px;
+}
 /*#active a{
     backgrcolor: #111111;
 }*/
@@ -72,6 +75,11 @@
 
 li:active {
     background-color: #8c0a0a;
+}
+
+h1.page-header{
+    padding-top: 20px;
+
 }
 /* carousel */
 #quote-carousel
