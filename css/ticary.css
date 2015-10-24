@@ -76,6 +76,10 @@
 li:active {
     background-color: #8c0a0a;
 }
+
+a:active {
+    background-color: #aaaaaa;
+}
 /* carousel */
 #quote-carousel
 {
