@@ -33,7 +33,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 60%;
+    height: 70%;
 }
 
 
@@ -92,8 +92,10 @@ header.carousel1 .fill {
 
 /* Footer Styles */
 
-footer {
-    margin: 50px 0;
+.footer {
+    /*margin: 10px 0;*/
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 /* Responsive Styles */
@@ -111,6 +113,6 @@ footer {
     }
 
     header.carousel .carousel {
-        height: 70%;
+        height: 50%;
     }
 }
