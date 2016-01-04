@@ -1,12 +1,19 @@
 h2 {
-    font-size: 45px;
+    /*font-size: 45px;*/
+    /*font-size: 2.5em;*/
+    font-size: 3.5vw;
+
   font-stretch: ultra-condensed;
 
 }
 h1{
-    font-size: 45px;
+    /*font-size: 45px;*/
+    font-size: 4.5vw;
     font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
     font-weight: 800;
+}
+h3{
+    font-size: 2.5vw;
 }
 
 
