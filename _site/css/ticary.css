@@ -1,3 +1,14 @@
+#mc_embed_signup{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background:#565656;
+    clear:left;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Helvetica","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+    width:100%;
+}
+
 .centered-text {
     text-align:center
 }
