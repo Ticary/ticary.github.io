@@ -76,12 +76,12 @@ h4{
     padding-top: 30px;
 }
 
-#bs-example-navbar-collapse-1 a { color: #ffffff; font: 16px arial, sans-serif;}
+#bs-example-navbar-collapse-1 a { color: #ffffff; font: 14px arial, sans-serif;}
 #bs-example-navbar-collapse-1 a:hover {
     /*color: #e8dddd;*/
     border-color: yellow;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 10px;
     border-width: thin;
 
     }
