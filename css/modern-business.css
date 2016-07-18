@@ -51,7 +51,7 @@ header.carousel .fill {
 }
 
 header.carousel1 {
-    height: 40%;
+    height: 30%;
 }
 header.carousel1 .item,
 header.carousel1 .item.active,
@@ -111,6 +111,7 @@ header.carousel1 .fill {
     .img-portfolio {
         margin-bottom: 15px;
     }
+
 
     header.carousel1 .carousel {
         height: 50%;
