@@ -51,7 +51,7 @@ header.carousel .fill {
 }
 
 header.carousel1 {
-    height: 30%;
+    height: 40%;
 }
 header.carousel1 .item,
 header.carousel1 .item.active,
@@ -105,12 +105,14 @@ header.carousel1 .fill {
     .img-related {
         margin-bottom: 30px;
     }
+    h1{font-size: 14px;}
 }
 
 @media(max-width:767px) {
     .img-portfolio {
         margin-bottom: 15px;
     }
+    h1{font-size: 14px;}
 
 
     header.carousel1 .carousel {
