@@ -8,7 +8,7 @@
 .btn-primary {
   color: #fff;
   background-color: #565656;
-  border-color: #2e6da4;
+  border-color: #565656;
 }
 
 .btn-primary:hover,
@@ -19,18 +19,40 @@
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #caa516;
+  border-color: #caa516;
 }
 
-#mc_embed_signup{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background:#565656;
-    clear:left;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: "Helvetica","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
-    width:100%;
+#mailchimp {
+    background: #DCDCDC ;
+    color: #148ca5;
+    padding: 20px 15px;
 }
+    #mailchimp input {
+         border: medium none;
+    color: gray;
+    font-family: times new roman;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 300px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+        #mailchimp input.email { background: #fff }
+        #mailchimp input.name { background: #fff}
+        #mailchimp input[type="submit"] {
+            background: #565656;
+            color: #fff;
+            cursor: pointer;
+            font-size: 15px;
+            width: 15%;
+            padding: 8px 0;
+
+        }
+            #mailchimp input[type="submit"]:hover { color: #F2C94C }
+
 
 .centered-text {
     text-align:center
@@ -39,14 +61,15 @@
 h2 {
     /*font-size: 45px;*/
     /*font-size: 2.5em;*/
-    font-size: 30px;
+    font-size: 35px;
     font-stretch: ultra-condensed;
-    color: #565656;
+    /*color: #565656;*/
+    color: #454545;
     font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
 
 }
 h1{
-    font-size: 40px;
+    font-size: 35px;
     /*font-size: 4.5vw;*/
     font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
     font-weight: 800;
@@ -63,8 +86,8 @@ h4{
 
 
 .topnav {
-    background-color: #148ca5;
-    border-bottom: none;
+    background-color: #fff;
+    border-bottom: thin solid #e8dddd;
 
 }
 
@@ -75,11 +98,11 @@ h4{
 #bs-example-navbar-collapse-1 a { color: #ffffff; font: 14px arial, sans-serif;}
 #bs-example-navbar-collapse-1 a:hover {
     /*color: #e8dddd;*/
-    border-color: yellow;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: thin;
-
+/*    border-color: yellow;
+    border-style: solid;*/
+    /*border-radius: 10px;*/
+    /*border-width: thick;*/
+    border-bottom: thick dotted #454545;
     }
 
 #bs-example-navbar-collapse-1 a:active {
@@ -101,9 +124,13 @@ h4{
 /*.page-header {
     text-align: center;
 }*/
-#accent a{ color: #ffffff;}
-#accent a:hover { color: yellow;}
-#accent a:active { color: yellow;}
+#accent a{ color: #454545;}
+/*#accent a:hover { color: yellow;}
+#accent a:active { color: yellow;}*/
+
+#white a{ color: #fff;}
+#white a:hover { color: #565656;}
+#white a:active { color: yellow;}
 
 #maroon {
             color: #aaaaaa;
@@ -146,7 +173,7 @@ h4{
 
 li:active {
     /*background-color: #8c0a0a;*/
-        background-color: #148ca5;
+        /*background-color: #148ca5;*/
 }
 
 
