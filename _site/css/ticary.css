@@ -11,6 +11,9 @@
   border-color: #565656;
 }
 
+a.dropdown-toggle { background-color: #ffffff;
+
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -102,7 +105,8 @@ h4{
     border-style: solid;*/
     /*border-radius: 10px;*/
     /*border-width: thick;*/
-    border-bottom: thick dotted #454545;
+    /*border-bottom: thick dotted #454545;*/
+    background-color: #dddddd;
     }
 
 #bs-example-navbar-collapse-1 a:active {
@@ -128,7 +132,7 @@ p.gray {
     font-size: 18px;
     color: #454545;
 }
-#accent a{ color: #454545;}
+#accent a{ color: #454545; background-color: #fff}
 /*#accent a:hover { color: yellow;}
 #accent a:active { color: yellow;}*/
 
