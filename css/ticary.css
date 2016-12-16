@@ -50,7 +50,7 @@ a.dropdown-toggle { background-color: #ffffff;
             color: #fff;
             cursor: pointer;
             font-size: 15px;
-            width: 15%;
+            width: 35%;
             padding: 8px 0;
 
         }
@@ -149,7 +149,8 @@ p.gray {
 #white a:hover { color: #565656;}
 #white a:active { color: yellow;}
 
-p.white { color: #fff;}
+.white { color: #fff;}
+
 #maroon {
             color: #aaaaaa;
             font-size: 15px;
