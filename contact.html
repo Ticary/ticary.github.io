@@ -29,6 +29,18 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+<!-- Lead Lander tracking code -->
+<script type="text/javascript" language="javascript">
+      var sf14gv = 30487;
+      (function() {
+      var sf14g = document.createElement('script'); sf14g.type = 'text/javascript'; sf14g.async = true;
+      sf14g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 't.sf14g.com/sf14g.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sf14g, s);
+      })();
+</script>
+
+<!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -57,8 +69,9 @@ s0.parentNode.insertBefore(s1,s0);
 
 <body>
 
+
     <!-- Navigation -->
-     <nav class="navbar navbar-inverse navbar-fixed-top topnav" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top topnav" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -68,94 +81,109 @@ s0.parentNode.insertBefore(s1,s0);
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <!-- <a href="index.html"><img height="63" src ="images/logo.png"/></a> -->
                 <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
+                <!-- <img height="60" src ="images/logo-white-blue.png"/> -->
                 <a href="index.html"><img style="padding-top:4px;" height="45" src ="images/logo_small.png"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                   <!--  <li id="accent" >
+               <!--      <li id="accent" >
                         <a color="yellow" href="index.html">Home</a>
                     </li> -->
-                    <li id="accent">
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
+
                     <li id="accent">
                         <a href="testimonials.html">Testimonials</a>
                     </li>
-                    <li id="accent">
-                        <a href="https://medium.com/syntax-and-semantics">Blog</a>
+                    <!-- </li> -->
+                    <li class="dropdown active" id="accent">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true"></i> Products and Demos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href=""> &nbsp;&nbsp; Chatbots (Coming Soon)</a></li>
+                            <li><a href=""> &nbsp;&nbsp; Keyword Extraction (Coming Soon)</a></li>
+                        </ul>
                     </li>
-                    <li id="accent">
-                        <a href="about.html">Team</a>
+                    <li class="dropdown active" id="accent">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cogs" aria-hidden="true"></i> Services <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            &nbsp; <i class="fa fa-cube" aria-hidden="true"></i> <b>NLP Consulting</b>
+                            <li class="active">
+                                <a href="portfolio.html"> &nbsp;&nbsp;&nbsp;&nbsp; Healthcare</a>
+                                <a href="portfolio.html"> &nbsp;&nbsp;&nbsp;&nbsp; Finance</a>
+                                <a href="portfolio.html"> &nbsp;&nbsp;&nbsp;&nbsp; Retail</a>
+                                <a href="portfolio.html"> &nbsp;&nbsp;&nbsp;&nbsp; Others</a>
+                            </li>
+<!--
+                            &nbsp; <i class="fa fa-university" aria-hidden="true"></i> <b>Teaching</b>
+                            <li><a href="portfolio.html">&nbsp;&nbsp;&nbsp;&nbsp; For Developers</a></li>
+                            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp; For Executives</a></li> -->
+                        </ul>
                     </li>
+
+                    <!-- <li class="dropdown active" id="accent">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="active">
+                                <a href="about.html"> Team</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-1-col.html">  Company Manifesto</a>
+                            </li>
+                           <li>
+                                <a href="https://medium.com/syntax-and-semantics"> Blog</a>
+                            </li>
+                            <li class="active">
+                                <a href="about.html"> In the News</a>
+                            </li>
+
+                        </ul>
+
                     <li id="accent">
                         <a href="contact.html">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-   <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel1 slide">
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('images/data-decisions-4.jpg');"></div>
-                <div class="carousel-caption" id="accent">
-                    <h1>Contact Us </h1>
-                    <!-- <h1>DATA SCIENCE CONSULTING</h1> -->
-                    <!-- <h3>Transforming Data into Decisions</h3> -->
-                    <a href="mailto:contact@ticary.com"><i class="fa fa-envelope-square fa-3x"></i></i></a>
-<!--                     <a href="https://github.com/rutum"><i class="fa fa-github fa-3x"></i> </a> -->
-                    &nbsp;&nbsp;
-                    <a href="https://www.linkedin.com/company/ticary-solutions-llc"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;
-                    <a class="accent" href="https://twitter.com/rutumulkar"><i class="fa fa-twitter-square fa-3x"></i></i></a>
-                </div>
+
+
+    <div style="background-image:url('images/landing_page2.png');background-size: cover;">
+        <div class="row">
+            <div class="col-lg-12" align="center" id="white">
+            <!-- <div id="white"> -->
+                <br><br>
+                <br><br>
+                <h1 class="top">Contact Us</h1>
+                <!-- <h1>DATA SCIENCE CONSULTING</h1> -->
+                <!-- <h3>Transforming Data into Decisions</h3> -->
+                <a href="https://medium.com/syntax-and-semantics"><i class="fa fa-medium fa-3x" aria-hidden="true"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="mailto:contact@ticary.com"><i class="fa fa-envelope-square fa-3x"></i></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com/ticary/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/company/ticary-solutions-llc"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/rutumulkar"><i class="fa fa-twitter fa-3x"></i></i></a>
+                <br><br><br><br>
+
+<!--                     &nbsp;&nbsp;
+                <a href="https://medium.com/syntax-and-semantics"> <i class="fa fa-medium fa-3x" aria-hidden="true"></i></a> -->
             </div>
-            <!-- <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div> -->
         </div>
-
-        <!-- Controls -->
-<!--         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a> -->
-    </header>
+    </div>
 
     <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-10">
-                <h1 class="page-header">
-                    <!-- <small>Subheading</small> -->
-                </h1>
-<!--                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Contact</li>
-                </ol> -->
-            </div>
-        </div>
-        <!-- /.row -->
+         <div class="row">
+            <h1> &nbsp;</h1>
+         </div>
 
         <!-- Content Row -->
         <div class="row">
@@ -224,18 +252,33 @@ s0.parentNode.insertBefore(s1,s0);
         </div>
         <!-- /.row -->
     </div>
-    <hr>
+
         <!-- Footer -->
     <div class="container footer">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12" id="maroon">
-                <div class="col-md-6 col-sm-6 col-xs-6 text-left">
-                    Copyright &copy; Ticary Solutions, LLC
+               <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                    Company Manifesto<br>
+                    <a href="about.html">Team</a><br>
+                    <a href="https://medium.com/syntax-and-semantics">Blog</a><br>
+                    News<br>
+                    <a href="contact.html">Contact Us</a>
                 </div>
+                <!-- <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                    Copyright &copy; Ticary Solutions, LLC
+                </div> -->
                 <div class="col-md-6 col-sm-6 col-xs-6 text-right">
-                        <a href="mailto:contact@ticary.com"><i class="fa fa-envelope-square fa-2x"></i></i></a>
-                        <a href="https://www.linkedin.com/company/ticary-solutions-llc"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                        <a href="https://twitter.com/ticary"><i class="fa fa-twitter-square fa-2x"></i></i></a>
+                        <br><br>
+                    <a href="https://medium.com/syntax-and-semantics"><i class="fa fa-medium fa-3x" aria-hidden="true"></i></a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="mailto:contact@ticary.com"><i class="fa fa-envelope-square fa-3x"></i></i></a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/ticary/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/company/ticary-solutions-llc"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/rutumulkar"><i class="fa fa-twitter fa-3x"></i></i></a>
+                    <br>Copyright &copy; Ticary Solutions LLC (2012 -- 2017)
                 </div>
             </div>
         </div>
