@@ -50,11 +50,7 @@ a.dropdown-toggle { background-color: #ffffff;
             color: #fff;
             cursor: pointer;
             font-size: 15px;
-<<<<<<< HEAD
-            width: 30%;
-=======
             width: 35%;
->>>>>>> b4af69cdb7899f4a6181a4fc33131b40eb3c7179
             padding: 8px 0;
 
         }
@@ -277,6 +273,23 @@ li:active {
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
+}
+
+/*You tube embedding*/
+.vid {
+    position: relative;
+    padding-bottom: 46.25%;
+    padding-top: 5px; height: 0; overflow: hidden;
+}
+
+.vid iframe,
+.vid object,
+.vid embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
