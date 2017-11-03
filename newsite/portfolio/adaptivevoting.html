@@ -1,0 +1,107 @@
+---
+layout: default_post
+---
+
+<header class="main-header">
+    <div class="container">
+        <h1 class="page-title"></h1>
+
+        <ol class="breadcrumb pull-right">
+            <!-- <li><a href="../services.html">Services</a></li> -->
+            <li><a href="../portfolio.html">Portfolio</a></li>
+            <li class="active">Adaptive Voting</li>
+        </ol>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <section>
+                <h2 class="page-header no-margin-top">Adaptive Voting</h2>
+                <!-- <img src="../assets/img/demo/7.jpg" class="img-responsive imageborder" alt="Image"> -->
+                <p>Consider a scenario where we have a database of ideas, and we have several votes on the different ideas, based on what people collectively think of those ideas. This is analogous to the answers to a question on Quora, or StackOverflow. People vote on the answers, and the answers that are most popular (i.e. voted the highest) will be picked as the best answer.
+                </p>
+                <p> Although this approach works well, it takes a considerable amount of time, and a lot of eyeballs from people/consumers to narrow down the best answer. Another issue is that we are considering all the votes to be equal, when in reality not all votes are equal. A person who is an expert in a field would have a higher weight for voting, as opposed to a beginner. A person who has a more accurate rate of predicting the best answer should have a higher power of voting, because his votes are most likely going to be right. </p>
+                <p> Similarly, people who don't do a good job of voting, should have a lower weight associated with their vote, so that they do not affect the overall outcome of the voting process as significantly as a good voter. </p>
+                <p> The solution is to create a weighted voting system. In Machine Learning, AdaBoost is actively used to weigh the the accuracy of several classifiers - giving higher weight to a “good” classifier, and lower weight to a “bad” classifier. If people are classifiers, and their votes are predictions, we can use adaboost to weigh these classifiers and consequently their predictions so that a good classifier (or person) has more voting power and a bad classifier (or person) has lower voting power.</p>
+
+                <p>A few things to consider:
+                    <ol>
+                        <li> How can we capture the changing weights over time - a person who is a good voter now can become a bad voter in the future, and vice versa. How can we make sure that this is captured?</li>
+                        <li> Classic AdaBoost approaches are applicable to classifier models. In this case, we will have to break down AdaBoost to fit it into the paradigm of classifiers, and have some sense of predicting power of a person on seen and unseen text </li>
+                        <li> Training and Testing data: Have a plan to extract some data from StackOverflow of Quora. We will need to figure out which one is a better fit, and extract a set of questions and answers that are interesting to a small subset of people. Our goal is to weigh the votes of this subset of people (analogous to weighing the classifiers’ predicting power) </li>
+                    </ol>
+                </p>
+                <p>
+                Some links for understanding AdaBoost:
+                <ol>
+                    <li>https://www.quora.com/What-is-AdaBoost</li>
+                    <li>http://math.mit.edu/~rothvoss/18.304.3PM/Presentations/1-Eric- Boosting304FinalRpdf.pdf</li>
+                    <li>Implementation of AdaBoost that we can possibly use:
+http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
+It is quite possible that we might have to reimplement AdaBoost to capture the nuances of the
+problem we want to solve - specifically mapping people votes to classifier outcomes. However, I
+would first like to see if we can use an already existing library for our problem.</li>
+</ol>
+</p>
+            </section>
+            <section>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <!-- <a href="#" class="social-icon-ar sm no-margin-bottom rss"><i class="fa fa-rss"></i></a> -->
+                        <a href="#" class="social-icon-ar sm no-margin-bottom facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social-icon-ar sm no-margin-bottom twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="social-icon-ar sm no-margin-bottom google-plus"><i class="fa fa-google-plus"></i></a>
+                        <!-- <a href="#" class="social-icon-ar sm no-margin-bottom wordpress"><i class="fa fa-wordpress"></i></a> -->
+                        <a href="#" class="social-icon-ar sm no-margin-bottom linkedin"><i class="fa fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Skills Used</h3>
+            <div class="progress progress-lg animated fadeInUp animation-delay-6">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                Corpus Linguistics
+              </div>
+            </div>
+            <div class="progress progress-lg animated fadeInUp animation-delay-8">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                Machine Learning
+              </div>
+            </div>
+            <div class="progress progress-lg animated fadeInUp animation-delay-10">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                Keyword Semantics
+              </div>
+            </div>
+            <div class="progress progress-lg animated fadeInUp animation-delay-12">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                Information Extraction 
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Tools Used</h3>
+            <div class="progress progress-lg animated fadeInUp animation-delay-6">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                Python
+              </div>
+            </div>
+            <div class="progress progress-lg animated fadeInUp animation-delay-8">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                Scikit-Learn
+              </div>
+            </div>
+            <div class="progress progress-lg animated fadeInUp animation-delay-10">
+              <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                Spacy
+              </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- container  -->
