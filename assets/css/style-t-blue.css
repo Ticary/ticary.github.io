@@ -184,9 +184,7 @@
 }
 @font-face {
   font-family: 'Reckoner';
-  src: url('../fonts/Reckoner.tff');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../fonts/Reckoner.tff') format('truetype');
 }
 a.social {
   display: inline-block;
