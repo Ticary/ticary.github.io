@@ -7,6 +7,7 @@
 /* Imports */
 /* ---------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:400italic,400,600|Muli:300|Indie+Flower:400|Oswald:400,700,300);
+@import url(../fonts/Reckoner.tff);
 /* ---------------------------------------------------- */
 /* Global Variables */
 /* ---------------------------------------------------- */
@@ -182,10 +183,10 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
+/*@font-face {
   font-family: 'Reckoner';
   src: url('../fonts/Reckoner.tff') format('truetype');
-}
+}*/
 a.social {
   display: inline-block;
   margin: 0 20px 20px 0;
