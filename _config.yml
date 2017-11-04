@@ -15,6 +15,7 @@ markdown: kramdown
 include: ['_pages']
 include: ['portfolio']
 excerpt_separator: <!--more-->
-# markdown: redcarpet
+
+
 # paginate: 4
 # paginate_path: "page:num/"
