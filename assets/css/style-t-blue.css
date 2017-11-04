@@ -2673,7 +2673,7 @@ textarea.form-control:focus {
 }
 .lead-hand {
   font-size: 1.2em;
-  font-family: 'garamond', cursive;
+  /*font-family: 'garamond', cursive;*/
   line-height: 170%;
 }
 .panel,
@@ -3238,7 +3238,7 @@ a.thumbnail.active {
 .navbar-default .navbar-brand {
   font-size: 28px;
   font-weight: 300;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   font-family: "Muli", sans-serif;
   word-spacing: -6px;
   -webkit-text-stroke: 0;
@@ -5261,7 +5261,8 @@ a.feature-icon:hover {
   background-position: center top;
   font-size: 3em;
   font-weight: 300;
-  font-family: "Reckoner", "Muli", "Lato", sans-serif;
+  font-family:  "Muli", "Lato", sans-serif; 
+  /*"Reckoner",*/
   color: #000;
   /*padding-top: 70px;*/
   margin-bottom: 20px;
@@ -5715,7 +5716,8 @@ a.feature-icon:hover {
 .header-full-title h1 {
   margin-bottom: 5px;
   margin-top: 15px;
-  font-family: "Reckoner", "Muli";
+  font-family: "Muli";
+  /*"Reckoner", */
   word-spacing: -7px;
   color: #148ca4;
   font-size: 40px;
@@ -6001,8 +6003,9 @@ a.feature-icon:hover {
 .navbar-default.navbar-dark .navbar-brand {
 
   color: #eee;
-  font-family: "Reckoner", "Lato";
-  font-size: 40px;
+  font-family: "Lato";
+  /*"Reckoner", */
+  font-size: 30px;
 }
 .navbar-default.navbar-dark + .main-header {
   background-color: #f1f1f1;
