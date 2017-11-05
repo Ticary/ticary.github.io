@@ -33,11 +33,10 @@ Once we have the $$tf$$ and $$idf$$, we can calculate the $$tf \times idf$$ scor
 
 The score $$tf_w \times idf_{w,d}$$ assigns each word $w$ a weight in document. Here are some insights about it.
 
-<ul>
-<li>$$tf_w \times idf_{w,d}$$ is highest when $$w$$ occurs many times within a small number of documents. This means that the word is significant, and can help establish relevance within the small number of documents.</li>
-<li>$$tf_w \times idf_{w,d}$$ is lower when the word occurs fewer times in a document, or occurs in many documents. If a word occurs infrequently, it might not be of significance. Similarly if a word occurs in a very large number of documents, it probably will not help in discriminating between the document.</li>
-<li>$$tf_w \times idf_{w,d}$$ is lowest when the term occurs in virtually all documents. This covers words like *a*, *an* *the*, *when* etc. which span a large number of documents and have no contribution towards the semantic composition of the document.</li>
-</ul>
+
+- $$tf_w \times idf_{w,d}$$ is highest when $$w$$ occurs many times within a small number of documents. This means that the word is significant, and can help establish relevance within the small number of documents.
+- $$tf_w \times idf_{w,d}$$ is lower when the word occurs fewer times in a document, or occurs in many documents. If a word occurs infrequently, it might not be of significance. Similarly if a word occurs in a very large number of documents, it probably will not help in discriminating between the document.
+- $$tf_w \times idf_{w,d}$$ is lowest when the term occurs in virtually all documents. This covers words like *a*, *an* *the*, *when* etc. which span a large number of documents and have no contribution towards the semantic composition of the document.
 
 ####FROM TF*IDF TO DOCUMENT SIMILARITY
 
