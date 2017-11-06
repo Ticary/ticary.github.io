@@ -5,13 +5,14 @@ tags: deep-learning word2vec gensim
 permalink: online_word2vec.html
 author: Rutu Mulkar-Mehta
 ---
+[Word2Vec]() [1] is a technique for creating vectors of word representations to capture the syntax and semantics of words. The vectors used to represent the words have several interesting features.
 
-[Word2Vec]() [1] is a technique for creating vectors of word representations to capture the syntax and semantics of words. The vectors used to represent the words have several interesting features, here are a few:
-
+Here are a few:
+<!--more--> 
 * Addition and subtraction of vectors show how word semantics are captured:
  e.g. $$king - man + woman = queen$$
 This example captures the fact that the semantics of $$king$$ and $$queen$$ are nicely captured by the word vectors
-<!--more-->
+
 * Similar words have similar word vectors: E.g. $$king$$ is most similar to - $$queen$$, $$duke$$, $$duchess$$
 
 Here is the description of [Gensim](http://radimrehurek.com/gensim/) Word2Vec, and a few blogs that describe how to use it: [Deep Learning with Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html), [Deep learning with word2vec and gensim](http://rare-technologies.com/deep-learning-with-word2vec-and-gensim/), [Word2Vec Tutorial](http://rare-technologies.com/word2vec-tutorial/), [Word2vec in Python, Part Two: Optimizing](http://rare-technologies.com/word2vec-in-python-part-two-optimizing/), [Bag of Words Meets Bags of Popcorn](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-2-word-vectors).
