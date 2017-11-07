@@ -4,7 +4,6 @@ title: All about that Bayes - An Intro to Probability
 permalink: intro_to_probability.html
 author: Ticary Team
 ---
-
 ####RANDOM VARIABLES
 
 In this world things keep happening around us. Each event occurring is a Random Variable. A Random Variable is an event, like elections, snow or hail. Random variables have an outcome attached them - the value of which is between 0 and 1. This is the likelihood of that event happening. We hear the outcomes of random variables all the time - There is a 50% chance or precipitation, The Seattle Seahawks have a 90% chance of winning the game.
@@ -115,9 +114,9 @@ Probability of Rain and Sun = 0.375
 
 Probability of Rain given Sun = 0.375/0.625 = 0.6
 
-DIFFERENCE BETWEEN CONDITIONAL AND JOINT PROBABILITY
+####DIFFERENCE BETWEEN CONDITIONAL AND JOINT PROBABILITY
 
-Conditional and Joint probability are often mistaken for each other because of the similarity in their naming convention. So what is the difference between: $ P(AB) $ and $ P(A \mid B) $
+Conditional and Joint probability are often mistaken for each other because of the similarity in their naming convention. So what is the difference between: $$ P(AB) $$ and $$ P(A \mid B) $$
 
 The first is Joint Probability and the second is Conditional Probability.
 
@@ -140,7 +139,7 @@ $$ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} $$
 
 This is the **Bayes Rule**.
 
-Bayes Rule is interesting, and significant, because we can use it to discover the conditional probability of something, using the conditional probability going the other direction. For example: to find the probability $ P(death \mid smoking)$ , we can get this unknown from $ P(smoking \mid death) $, which is much easier to collect data for, as it is easier to find out whether the person who died was a smoker or a non smoker.
+Bayes Rule is interesting, and significant, because we can use it to discover the conditional probability of something, using the conditional probability going the other direction. For example: to find the probability $$ P(death \mid smoking)$$ , we can get this unknown from $$ P(smoking \mid death) $$, which is much easier to collect data for, as it is easier to find out whether the person who died was a smoker or a non smoker.
 
 ---
 
@@ -148,9 +147,9 @@ Lets look at some real examples of probability in action. Consider a prosecutor,
 
 The data we have is the following:
 
-- One person in a town of 100,000 committed a crime. The probability that is he guilty $ P(G) = 0.00001$, where $P(G)$ is the probability of a person being guilty of having committed a crime
-- The forensics experts tell us, that if someone commits a crime, then they leave behind fingerprints 99% of the time. $P(F \mid G) = 0.99$, where $P(F \mid G)$ is the probability of fingerprints, given crime is commited
-- There are usually 3 people's fingerprints in any given location. So $P(F) = 3 * 0.00001 = 0.00003$. This is because only 1 in 100,000 people could have their fingerprints
+- One person in a town of 100,000 committed a crime. The probability that is he guilty $$ P(G) = 0.00001$$, where $$P(G)$$ is the probability of a person being guilty of having committed a crime
+- The forensics experts tell us, that if someone commits a crime, then they leave behind fingerprints 99% of the time. $$P(F \mid G) = 0.99$$, where $$P(F \mid G)$$ is the probability of fingerprints, given crime is commited
+- There are usually 3 people's fingerprints in any given location. So $$P(F) = 3 * 0.00001 = 0.00003$$. This is because only 1 in 100,000 people could have their fingerprints
 
 We need to compute:
 
@@ -190,15 +189,15 @@ Let $P(H \leftarrow w)$ be the probability of Health being *well*, and $P(H \lef
 
 We know that the probability you have the disease is low $P(H \leftarrow s) = 0.0001$. We also know that the test is 99% accurate. What does this mean? It means that if you are sick, then the test will accurately predict it by 99%
 
-$P(T \leftarrow n \mid H \leftarrow w) = 0.99$
+$$P(T \leftarrow n \mid H \leftarrow w) = 0.99$$
 
-$P(T \leftarrow n \mid H \leftarrow s) = 0.01$
+$$P(T \leftarrow n \mid H \leftarrow s) = 0.01$$
 
-$P(T \leftarrow p \mid H \leftarrow w) = 0.01$
+$$P(T \leftarrow p \mid H \leftarrow w) = 0.01$$
 
-$P(T \leftarrow p \mid H \leftarrow s) = 0.99$
+$$P(T \leftarrow p \mid H \leftarrow s) = 0.99$$
 
-We need to find out the probability that you are *sick* given that the test is *positive* or $P(H \leftarrow s \mid T \leftarrow p)$
+We need to find out the probability that you are *sick* given that the test is *positive* or $$P(H \leftarrow s \mid T \leftarrow p)$$
 
 Using Bayes Rule:
 
@@ -208,7 +207,7 @@ We know the numerator, but not the denominator. However, it is easy enough to co
 
 We know that the total probability of
 
-$P(H \leftarrow s \mid T \leftarrow p) + P(H \leftarrow w \mid T \leftarrow p) = 1$
+$$P(H \leftarrow s \mid T \leftarrow p) + P(H \leftarrow w \mid T \leftarrow p) = 1$$
 
 $$P(H \leftarrow s \mid T \leftarrow p) = \frac{P(T \leftarrow p \mid H \leftarrow s) \, P(H \leftarrow s)}{P(T \leftarrow p)}$$
 
