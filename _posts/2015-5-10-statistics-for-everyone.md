@@ -232,3 +232,5 @@ The mean of any given sample is an estimate of the population mean number of fea
 - If the population of number of features has a large standard deviation, then the samples from that population will have large sample standard deviation the sample means may be far from the population mean and we will have a large standard error of the mean
 
 So large population variability causes a large standard error of the mean. The estimate of the population mean using 2 observations is less reliable than the estimate using 20 observations, and much less reliable than the estimate of the mean using 100 observations. As N gets bigger, we expect our error in estimating the population mean to get smaller.
+
+If you enjoyed reading this article about basic statistics, please take a second to share it with others!
