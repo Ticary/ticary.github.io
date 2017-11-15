@@ -6,11 +6,11 @@ permalink: search_engine.html
 author: Rutu Mulkar-Mehta
 ---
 
-]In this post, I will take you through the steps for calculating the $$tf \times idf$$ values for all the words in a given document. To implement this, we use a small dataset (or corpus, as NLPers like to call it) form the [Project Gutenberg Catalog](http://www.gutenberg.org/). This is just a simple toy example on a very small dataset. In real life we use much larger [corpora](), and need some more sophisticated tools in order to handle large amounts of data. To brush up on the basic concepts of $$tf \times idf$$ you might want to check out my post on the [The Math behind Lucene](http://ticary.com/math_behind_lucene.html).
+]In this post, I will take you through the steps for calculating the $$tf \times idf$$ values for all the words in a given document. To implement this, we use a small dataset (or corpus, as NLPers like to call it) form the [Project Gutenberg Catalog](http://www.gutenberg.org/). This is just a simple toy example on a very small dataset. In real life we use much larger [corpora](https://en.wikipedia.org/wiki/Text_corpus), and need some more sophisticated tools in order to handle large amounts of data. To brush up on the basic concepts of $$tf \times idf$$ you might want to check out my post on the [The Math behind Lucene](http://ticary.com/math_behind_lucene.html).
 
 <!--more-->
 
-For this exercise, we will use the [Project Gutenberg Selections](http://www.gutenberg.org/) which are released as part of [NLTK Data](http://nltk.googlecode.com/svn/trunk/nltk_data/index.xml). NLTK - Natural Language Toolkit - is a python based module for text processing. The corpus - [Project Gutenberg Selections]() - contains 18 files. Each file is a complete book. Our task is to calculate the $$tf \times idf$$ of all the words for each of the documents provided. In the end of this exercise we will have 18 documents, with the $$tf \times idf$$ of each word in each of the documents.
+For this exercise, we will use the [Project Gutenberg Selections](http://www.gutenberg.org/) which are released as part of [NLTK Data](http://nltk.googlecode.com/svn/trunk/nltk_data/index.xml). NLTK - Natural Language Toolkit - is a python based module for text processing. The corpus - [Project Gutenberg Selections](https://github.com/rutum/tf-idf/tree/master/gutenberg) - contains 18 files. Each file is a complete book. Our task is to calculate the $$tf \times idf$$ of all the words for each of the documents provided. In the end of this exercise we will have 18 documents, with the $$tf \times idf$$ of each word in each of the documents.
 
 Documents with $$tf \times idf$$ values for each word (or token) are often used (with the [vector space model](http://en.wikipedia.org/wiki/Vector_space_model)) to compute the similarity between two documents. Such statistics are quite relevant in Information Retrieval, Search Engines, Document Similarity, and so on.
 
@@ -18,7 +18,7 @@ Documents with $$tf \times idf$$ values for each word (or token) are often used 
 
 The code is written in perl, and is heavy in regular expressions. I have tried my best to document the code, but if you have any issues, or discover bugs, please do not hesitate in contacting me. I will not go into the details of all my code in this post, but will highlight a few features.
 
-This is one of the most important tasks of any NLP application. Discourse often contains non-ascii characters, no alphanumeric characters, spaces, and so on. The first and most important task is to remove these unwanted characters from text, to clean it up. Here is a set of [regular expressions (regex)]() that is helpful for this dataset. However it is not an exhaustive set of regexes. For instance, I have not used any regex to convert [UTF8](http://en.wikipedia.org/wiki/UTF-8) to [ASCII](http://en.wikipedia.org/wiki/ASCII).
+This is one of the most important tasks of any NLP application. Discourse often contains non-ascii characters, no alphanumeric characters, spaces, and so on. The first and most important task is to remove these unwanted characters from text, to clean it up. Here is a set of [regular expressions (regex)](https://www.regular-expressions.info/) that is helpful for this dataset. However it is not an exhaustive set of regexes. For instance, I have not used any regex to convert [UTF8](http://en.wikipedia.org/wiki/UTF-8) to [ASCII](http://en.wikipedia.org/wiki/ASCII).
 
 {% highlight perl %}
 
@@ -38,7 +38,7 @@ The rest of my code can be downloaded from my [github repo](https://github.com/r
 
 It is interesting to note here that words occurring in all the documents have an $$idf$$ value of 0. This means that their $$tf*idf$$ value will also be 0, deeming them insignificant in contributing to the document vector. These include words like - *a*, *the*, *when*, *if*, etc. A longer list can be developed by sorting all the values in the file idf.txt (downloaded from my [github repo](https://github.com/rutum/tf-idf)).
 
-The next step, is to use these metrics to compute [document similarity](). Discovering similar document in a corpus of documents remains one of the most important problems of [information retrieval](). This is often done by converting documents into [document vectors](), and comparing the similarity of these vectors to each other using vector similarity metrics.
+The next step, is to use these metrics to compute [document similarity](https://en.wikipedia.org/wiki/Semantic_similarity). Discovering similar document in a corpus of documents remains one of the most important problems of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval). This is often done by converting documents into [document vectors](https://nlp.stanford.edu/IR-book/html/htmledition/the-vector-space-model-for-scoring-1.html), and comparing the similarity of these vectors to each other using vector similarity metrics.
 
 > Note: All the code for this can be downloaded from my [github repo](https://github.com/rutum/document_similarity).
 
