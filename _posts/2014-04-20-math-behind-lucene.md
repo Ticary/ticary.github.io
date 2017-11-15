@@ -38,8 +38,8 @@ The score $$tf_w \times idf_{w,d}$$ assigns each word $w$ a weight in document. 
 - $$tf_w \times idf_{w,d}$$ is lower when the word occurs fewer times in a document, or occurs in many documents. If a word occurs infrequently, it might not be of significance. Similarly if a word occurs in a very large number of documents, it probably will not help in discriminating between the document.
 - $$tf_w \times idf_{w,d}$$ is lowest when the term occurs in virtually all documents. This covers words like *a*, *an* *the*, *when* etc. which span a large number of documents and have no contribution towards the semantic composition of the document.
 
-####FROM TF*IDF TO DOCUMENT SIMILARITY
-
+FROM TF*IDF TO DOCUMENT SIMILARITY
+-------------------
 [Document vectors](https://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html) are created by computing the relative weights of each word in the document. One way to accomplish this is by computing the $$tf \times idf$$ values of each of the words in the document. When we compute the $$tf \times idf$$ of each of the words in a document, we end up with documents with a list of features (words) with their values (weights). In a sense, this represents the document vector. The representation of documents as vectors in a common vector space is known as a [vector space model(), and is the basis of a large number of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval) tasks.
 
 A standard way of computing the document similarity is to compute the [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) of the vector representations of the documents. If $$d_1$$ and $$d_2$$ are two documents, and $$V(d_1)$$ and $$V(d_2)$$ are the vector representations of them respectively, then the similarity of $$d_1$$ and $$d_2$$ can be measured as the cosine of the angle between $$V(d_1)$$ and $$V(d_2)$$

@@ -4,13 +4,13 @@ title: All about that Bayes - An Intro to Probability
 permalink: intro_to_probability.html
 author: Ticary Team
 ---
-####RANDOM VARIABLES
-
+RANDOM VARIABLES
+-------------------
 In this world things keep happening around us. Each event occurring is a Random Variable. A Random Variable is an event, like elections, snow or hail. Random variables have an outcome attached them - the value of which is between 0 and 1. This is the likelihood of that event happening. We hear the outcomes of random variables all the time - There is a 50% chance or precipitation, The Seattle Seahawks have a 90% chance of winning the game.
 <!--more-->
 
-####SIMPLE PROBABILITY
-
+SIMPLE PROBABILITY
+-------------------
 Where do we get these numbers from? From past data.
 
 | **Year**  | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 |
@@ -22,8 +22,8 @@ p(Rain=Rainy) = \frac{\sum(Rain=Rainy)}{\sum(Rain=Rainy) + \sum(Rain=Dry)} = \fr
 $$p(Rain=Dry) = \frac{\sum(Rain=Dry)}{\sum(Rain=Rainy) + \sum(Rain=Dry)} = \frac{3}{8}
 $$
 
-####PROBABILITY OF 2 EVENTS
-
+PROBABILITY OF 2 EVENTS
+-------------------
 What is the probability that event A and Event B happening together? Consider the following table, with data about the *Rain* and *Sun* received by Seattle for the past few years.
 
 | **Year**  | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 |
@@ -94,8 +94,8 @@ We can extend this table further include **Marginalization**. *Marginalization* 
 
 Why are margins helpful? They remove the effects of one of the two events in the table. So, if we want to know the probability that it will rain (irrespective of other events), we can find it from the marginal table as 0.625. From Table 1, we can confirm this by computing all the individual instances that it rains - 5/8 = 0.625
 
-####CONDITIONAL PROBABILITY
-
+CONDITIONAL PROBABILITY
+-------------------
 What do we do when one of the outcomes is already given to us? On this new day in 2016, it is very sunny, but what is the probability that it will rain?
 
 $$
@@ -114,8 +114,8 @@ Probability of Rain and Sun = 0.375
 
 Probability of Rain given Sun = 0.375/0.625 = 0.6
 
-####DIFFERENCE BETWEEN CONDITIONAL AND JOINT PROBABILITY
-
+DIFFERENCE BETWEEN CONDITIONAL AND JOINT PROBABILITY
+-------------------
 Conditional and Joint probability are often mistaken for each other because of the similarity in their naming convention. So what is the difference between: $$ P(AB) $$ and $$ P(A \mid B) $$
 
 The first is Joint Probability and the second is Conditional Probability.
@@ -125,8 +125,8 @@ Joint probability computes the probability of 2 events happening together. In th
 
 Conditional probability is similar, but with one difference - We already know that one of the events (e.g. Event B) did happen. So we are looking for the probability of Event A, when we know the Event B already happened or that the probability of Event B is 1. This is a subtle but a significantly different way of looking at things.
 
-####BAYES RULE
-
+BAYES RULE
+-------------------
 $$P(A B) = P(A) \, P(B \mid A)$$
 
 $$ P(B A) = P(B) \, P(A \mid B)$$
@@ -233,8 +233,8 @@ This is the reason why doctors are hesitant to order expensive tests if it is un
 
 ---
 
-####NAIVE BAYES
-
+NAIVE BAYES
+-------------------
 When someone applies *Naive Bayes* to a problem, they are assuming *conditional independence* of all the events. This means:
 
 $$P(ABC... \mid Z) = P(A \mid Z) \, P(B \mid Z) \, P(C \mid Z) \,...$$

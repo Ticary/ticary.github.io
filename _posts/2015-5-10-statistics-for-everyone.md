@@ -11,8 +11,8 @@ Have you ever had to deal with a lot of data, and don't know where to start? If 
 
 <!--more-->
 
-####DESCRIPTION OF DATASET
-
+DESCRIPTION OF DATASET
+-------------------
 The data provided is a CSV file [bikesharing.csv](https://raw.githubusercontent.com/rutum/basic-statistics/master/bikesharing.csv), with 5 columns - datetime, season, holiday, workingday, and count.
 
 - datetime: The date and time when the statistics were captured
@@ -21,8 +21,8 @@ The data provided is a CSV file [bikesharing.csv](https://raw.githubusercontent.
 - workingday: whether the day is neither a weekend nor holiday
 - count: the total number of bikes rented on that day
 
-####MIN MAX AND MEAN
-
+MIN MAX AND MEAN
+-------------------
 One of the first analyses one can do with their data, is to find the minimum,  maximum and the mean. The mean (or average) number of bikes per day rented in this case is the sum of all bikes rented per day divided by the total number of days:
 
 $$\bar{f} = \frac{\sum_{i=1}^{n} b_i}{n}$$
@@ -124,14 +124,14 @@ As you can see, the mean varies significantly with the season. It intuitively ma
 
 ---
 
-####VARIABILITY IN DATA
-
+VARIABILITY IN DATA
+-------------------
 The next thing we would like to know, is the variability of the data provided. It is good to know if the data is skewed in a particular direction, or how varied it is. If the data is highly variable, it is hard to determine if the mean changes with different samples of data. Reducing variability is a common goal of designed experiments, and this can be done by finding subsets of data that have low variablity such that samples from each of the subsets produce similar mean value. We already did a little bit of that in the second example above.
 
 There are 2 ways of measuring variability: variance and standard deviation.
 
-####VARIANCE
-
+VARIANCE
+-------------------
 Variance is defined as the average of the squared differences from the mean. In most experiments, we take a random sample from a population. In this case, we will compute the population variance, which uses all possible data provided. Population variance can be computed as:
 
 $$ \sigma^2 = \frac{\sum_{i=1}^{n} (f_i - \bar{x})^2}{N} $$
@@ -175,8 +175,8 @@ Output:
 
 {% endhighlight %}
 
-####STANDARD DEVIATION
-
+STANDARD DEVIATION
+-------------------
 Variance by itself is not particularly insightful, as its units are feature squared and it is not possible to plot it on a graph and compare it with the min, max and mean values. The square root of variance is the standard deviation, and it is a much more insightful metric.
 
 The population standard deviation, $\sigma$, is the square root of the variance, $\sigma^2$. In python you can compute variance by adding the following line to the above code:
@@ -216,8 +216,8 @@ A standard deviation close to 0 indicates that the data points tend to be very c
 
 ---
 
-####STANDARD ERROR OF THE MEAN (SEM)
-
+STANDARD ERROR OF THE MEAN (SEM)
+-------------------
 In this post, we have computed the population mean, however, if one has to compute the sample mean, it is useful to know how accurate this value is in estimating the population mean. SEM is the error in estimating $\mu$.
 
 $$SEM = \frac{\sigma}{\sqrt{N}}$$

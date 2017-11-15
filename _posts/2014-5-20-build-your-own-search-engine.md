@@ -44,8 +44,8 @@ The next step, is to use these metrics to compute [document similarity](https://
 
 This post uses the output generated in the toy example for $$tf \times idf$$ which is available in this [github repo](https://github.com/rutum/document_similarity).
 
-####CREATING DOCUMENT VECTORS
-
+CREATING DOCUMENT VECTORS
+-------------------
 After computing the $$tf \times idf$$ values for each document in a given corpus, we need to go through the exercise to convert these values into a document vector. If you recall some vector basics, a vector constitutes a magnitude and a direction. In our case, the direction is represented by a word in the document and magnitude is the weight or the $$tf \times idf$$ value of the word in the document. In order to simplify our vector calculations we pre-specify the locations of each word in the array representing the document, creating a sparse vector.
 
 For instance consider the vocabulary of the entire corpus to be:
