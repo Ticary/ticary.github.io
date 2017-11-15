@@ -10,8 +10,8 @@ author: Ticary Team
 
 <!--more-->
 
-###THE BASICS - TF*IDF
-
+THE BASICS - TF*IDF
+===================
 The analysis of language often brings us in situations where we are required to determine the weight or importance of a given word in a document, to determine the relative importance or similarity of a document to another document. In situations such as this, the first step to remove [stop words](http://en.wikipedia.org/wiki/Stop_words) which are basically words that dont contribute to the general focus of a given article. Most common stop words are words like - *a*, *when*, *who*, *what*. The list of stop words keeps changing based on the domain of discourse. For instance, in a corpus of articles about the human heart, the word heart could potentially be a stop word due to the sheer frequency in which it is mentioned. It is always a good idea to remove stop words in a given text before processing it. However, once these stop words are removed, one still faces the task of determining the relative importance or weights of the remaining words in the document - lets start talking about [tf-idf](http://en.wikipedia.org/wiki/Tf*idf).
 
 Observing the words in a document, an intuitive way to discover the importance of a given word is to count the frequency of the word in the document. This is the [Term Frequency](https://nlp.stanford.edu/IR-book/html/htmledition/term-frequency-and-weighting-1.html) or the tf of the word in the given document. tf is often normalized so as to not introduce a bias because of the document size. A normalized tf for a given word in a given document is calculated as:
