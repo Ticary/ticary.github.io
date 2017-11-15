@@ -4,8 +4,8 @@ title: All about that Bayes - An Intro to Probability
 permalink: intro_to_probability.html
 author: Ticary Team
 ---
-RANDOM VARIABLES
--------------------
+#### RANDOM VARIABLES
+
 In this world things keep happening around us. Each event occurring is a Random Variable. A Random Variable is an event, like elections, snow or hail. Random variables have an outcome attached them - the value of which is between 0 and 1. This is the likelihood of that event happening. We hear the outcomes of random variables all the time - There is a 50% chance or precipitation, The Seattle Seahawks have a 90% chance of winning the game.
 <!--more-->
 
