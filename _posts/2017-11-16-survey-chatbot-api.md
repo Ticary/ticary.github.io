@@ -5,7 +5,7 @@ permalink: survey-chatbot-api.html
 author: Rutu Mulkar-Mehta
 ---
 
-![Image Credit: www.martechadvisor.com](https://cdn-images-1.medium.com/max/800/1*D2ZcozkOi9zWXgws283WJw.jpeg)
+![Image Credit: www.martechadvisor.com](https://cdn-images-1.medium.com/max/800/1*D2ZcozkOi9zWXgws283WJw.jpeg){:class="img-responsive"}
 
 So you want to build your own chatbot, and you want to do it quickly? Well, you’re in luck; several businesses have opened up their chatbot API’s to the public, so you can use them with little to no programming experience.
 
