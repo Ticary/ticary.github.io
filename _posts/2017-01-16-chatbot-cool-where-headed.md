@@ -3,8 +3,10 @@ layout: post
 title: Why are Chatbots cool, and where are they headed?
 permalink: chatbot-cool-where-headed.html
 author: Rutu Mulkar-Mehta
+comments: true
 ---
-![](https://cdn-images-1.medium.com/max/1000/1*FjckhTVDAcg3spFqG-k05Q.jpeg){:class="img-responsive"}
+![](https://cdn-images-1.medium.com/max/1000/1*FjckhTVDAcg3spFqG-k05Q.jpeg){:class="img-responsive" .center-image}
+
 The next new wave of Artificial Intelligence is here in the form on Chatbots — which enables end users to communicate directly with machines that are programmed to converse with humans. Several message interfaces such as Facebook Messenger are perfect avenues for deploying chatbots on already existing chat frameworks.
 
 <!--more-->
@@ -14,11 +16,13 @@ Chatbots — like the general space of Natural Language Processing (NLP) fac
 
 Generic chatbots are hard to develop because of the specialized domain modeling. Each chatbot needs to be carefully developed to address questions regarding the domain that it needs to be an expert in. For instance, a weather bot needs to be aware of all keywords related the the weather, resources about how to find weather instantaneously, and the current colloquial language talking about weather. It is inconceivable to use a weather bot for another purpose (like making it into a shopping bot). Additionally, the strategy behind building a bot should be well conceived and thought out. For instance, Home Depot has a service on its website that helps people find the exact location of the object they are looking for — with the isle and bay number. Macy’s (along with IBM Watson) has tried to implement a similar service using a chatbot, but it is hard to imagine people using this location based service in a store where identifying markers are unstructured and relative. For instance — if you type for shoes, it tells you the location of shoes are compared to other products in store.
 
-![Macy's Digital Assistant](https://cdn-images-1.medium.com/max/800/1*-W-VgveGFBIi-Xj62YJ0ew.png)
+![Macy's Digital Assistant](https://cdn-images-1.medium.com/max/800/1*-W-VgveGFBIi-Xj62YJ0ew.png){:class="img-responsive" .center-image}
+
 
 In contrast to Macys chatbot, BestBuy has done a great job in rolling out their digital assistant. This chatbot (which is in beta model in the BestBuy iPhone App) accepts a user query and transfers the consumer to the most likely agent that can help them with the issue.
 
-![Best Buy's Digital Assistant](https://cdn-images-1.medium.com/max/800/1*JA4a3oCci5gym1Vd3Ct_EQ.png)
+![Best Buy's Digital Assistant](https://cdn-images-1.medium.com/max/800/1*JA4a3oCci5gym1Vd3Ct_EQ.png){:class="img-responsive" .center-image}
+
 
 The BestBuy digital assistant can also help answer select questions — such as questions about price match. Although, that is about all it can do, one can envision a smarter chatbot that can help with orders, sales etc, once the backend modeling is done for this tasks.
 

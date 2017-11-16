@@ -3,9 +3,10 @@ layout: post
 title: A survey of the latest chatbot API’s
 permalink: survey-chatbot-api.html
 author: Rutu Mulkar-Mehta
+comments: true
 ---
 
-![Image Credit: www.martechadvisor.com](https://cdn-images-1.medium.com/max/800/1*D2ZcozkOi9zWXgws283WJw.jpeg){:class="img-responsive"}
+![Image Credit: www.martechadvisor.com](https://cdn-images-1.medium.com/max/800/1*D2ZcozkOi9zWXgws283WJw.jpeg){:class="img-responsive" .center-image}
 
 So you want to build your own chatbot, and you want to do it quickly? Well, you’re in luck; several businesses have opened up their chatbot API’s to the public, so you can use them with little to no programming experience.
 
@@ -14,7 +15,8 @@ Here’s a run down of some of the most popular API’s that are available out t
 
 #### API.ai
 
-![API.ai](https://cdn-images-1.medium.com/max/800/1*GVkpcOVIEUxuuRa2XF-tiQ.png)
+![API.ai](https://cdn-images-1.medium.com/max/800/1*GVkpcOVIEUxuuRa2XF-tiQ.png){:class="img-responsive" .center-image}
+
 
 API.ai was acquired by Google in 2016. All of their NLP (Natural Language Processing) and ML (Machine Learning) data are available for use for free. Here are some advantages and shortcomings of the API:
 
@@ -26,7 +28,8 @@ API.ai was acquired by Google in 2016. All of their NLP (Natural Language Proces
 
 #### MOTION.ai — No Coding Required!
 
-![motion.ai](https://cdn-images-1.medium.com/max/800/1*GcSIxfgX6gymR86Scj2UUg.png)
+![motion.ai](https://cdn-images-1.medium.com/max/800/1*GcSIxfgX6gymR86Scj2UUg.png){:class="img-responsive" .center-image}
+
 
 Motion.ai claims to make the development of chatbots very simple by using a visual, flowchart-based development processes. Here are some cool features and limitations of using it:
 
@@ -42,7 +45,7 @@ Motion.ai claims to make the development of chatbots very simple by using a visu
 > 
 > <span style="color: red">Q: “That doesn’t look like an email address. What is your email address?” </span>
 > 
-> <span style="color: blue">A: “Representative”</blue>
+> <span style="color: blue">A: “Representative”</span>
 > 
 > <span style="color: red">Q: “That doesn’t look like an email address. What is your email address?”</span>
 >
@@ -53,7 +56,9 @@ Motion.ai claims to make the development of chatbots very simple by using a visu
 
 #### Chatterbot — If you just want to talk
 
-![ChatterBot](https://cdn-images-1.medium.com/max/800/1*Rcakkad_vWxiTFHLBtWBaw.png)
+![ChatterBot](https://cdn-images-1.medium.com/max/800/1*Rcakkad_vWxiTFHLBtWBaw.png){:class="img-responsive" .center-image}
+
+
 ChatterBot is a freely available and downloadable chatbot simulator that can be used to develop a chatbot that “appear[s] human.” Check it out on github here: https://github.com/gunthercox/ChatterBot
 
 - E.g. if John says “hi”, ChatterBot responds with “Hello”
@@ -62,7 +67,7 @@ ChatterBot is a freely available and downloadable chatbot simulator that can be 
 
 #### WIT.ai
 
-![Wit.ai](https://cdn-images-1.medium.com/max/800/1*qbvD4BlX3g7Gg4imREsjUA.png)
+![Wit.ai](https://cdn-images-1.medium.com/max/800/1*qbvD4BlX3g7Gg4imREsjUA.png){:class="img-responsive" .center-image}
 
 Wit.ai was acquired by Facebook in 2016, and is free to use [as long as you do not exceed rate limitations, which can bring their servers down]. Find it on Github here: https://github.com/wit-ai
 
@@ -73,7 +78,7 @@ Wit.ai was acquired by Facebook in 2016, and is free to use [as long as you do n
 - CON: It has flowchart-based conversation management, which is probably not the most ideal form of conversation management, which is the same downfall we see in the Motion.ai example above.
 
 #### Summary
-![](https://cdn-images-1.medium.com/max/800/1*vabuEJU9A4tyR_NdcayJVg.png)
+![](https://cdn-images-1.medium.com/max/800/1*vabuEJU9A4tyR_NdcayJVg.png){:class="img-responsive" .center-image}
 
 #### What is missing in the current API’s?
 Chatbots need to be experts in their fields, and don’t need to know trivia about the world.

@@ -26,6 +26,13 @@ tr:hover {background-color: #ddd;}
 section.post {
   font-size: 1.2em;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 /* ---------------------------------------------------- */
 /* Variables */
 /* ---------------------------------------------------- */
