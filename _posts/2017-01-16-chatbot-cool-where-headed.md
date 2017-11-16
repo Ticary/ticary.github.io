@@ -4,9 +4,10 @@ title: Why are Chatbots cool, and where are they headed?
 permalink: chatbot-cool-where-headed.html
 author: Rutu Mulkar-Mehta
 ---
-
+![](https://cdn-images-1.medium.com/max/1000/1*FjckhTVDAcg3spFqG-k05Q.jpeg){:class="img-responsive"}
 The next new wave of Artificial Intelligence is here in the form on Chatbots — which enables end users to communicate directly with machines that are programmed to converse with humans. Several message interfaces such as Facebook Messenger are perfect avenues for deploying chatbots on already existing chat frameworks.
 
+<!--more-->
 Chatbots provide a huge advantage over live communication channels, as they provide instant feedback to an end user without requiring human resources. Chatbots are also more powerful than search engines, as they can potentially perform various Question Answering (QA) based functions that traditional Information Retrieval (IR) based system such as search engines are unable to do. For instance the query — “how much did I spend on Amazon last month?”, requires selecting all Amazon transactions based on time period of last month, and computing the total cost. This is sophisticated reasoning that a simple search query (like google search) is not able to do.
 
 Chatbots — like the general space of Natural Language Processing (NLP) face the issue of requiring a lot of domain dependent modeling in order to be smart and effective. For instance, Kai — which is a MasterCard chatbot can answer questions about your recent financial transactions, and aggregate that information to the user in a usable and useful manner. This chatbot needs to know about arithmetic, searching user logs, answering generic questions about MasterCard and also how to identify critical vs regular questions. This is an assimilation of quite a few areas of NLP research such as — Question Answering, Keyword Identification, Information Retrieval, Sentiment Analysis, among others.
