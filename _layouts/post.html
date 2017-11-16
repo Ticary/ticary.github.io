@@ -34,7 +34,7 @@ layout: default_post
                 <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social-icon-ar sm no-margin-bottom facebook"><i class="fa fa-facebook"></i></a>
                 <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" class="social-icon-ar sm no-margin-bottom google-plus"><i class="fa fa-google-plus"></i></a>
                 <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{page.excerpt | strip_html | truncatewords:50}}&" rel="nofollow" target="_blank" class="social-icon-ar sm no-margin-bottom linkedin"><i class="fa fa-linkedin"></i></a>
-                <a href="mailto:?subject{{page.title}}e&amp;body={{page.excerpt }} {{ site.url }}/{{ page.url }}">
+                <a href="mailto:?subject{{page.title}}e&amp;body={{page.excerpt | strip_html}} {{ site.url }}/{{ page.url }}">
                 <i class="fa fa-envelope"></i>
 </a>
                     </div>
