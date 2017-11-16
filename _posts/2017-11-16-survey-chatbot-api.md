@@ -9,6 +9,7 @@ author: Rutu Mulkar-Mehta
 
 So you want to build your own chatbot, and you want to do it quickly? Well, you’re in luck; several businesses have opened up their chatbot API’s to the public, so you can use them with little to no programming experience.
 
+<!-- more -->
 Here’s a run down of some of the most popular API’s that are available out there for use. Spoiler alert — none of them seem to be smart enough to build a productive bot that can help solve all your business problems. But they may be able to solve some of them. I’m bringing you a list of APIs, what they have to offer, and the ways in which I find them lacking.
 
 #### API.ai
