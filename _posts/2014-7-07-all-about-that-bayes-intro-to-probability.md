@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All about that Bayes - An Intro to Probability
-permalink: intro_to_probability.html
+<!--permalink: intro_to_probability.html-->
 author: Ticary Team
 ---
 #### RANDOM VARIABLES

@@ -12,10 +12,10 @@ twitter_username: ticary
 
 # Build settings
 markdown: kramdown
-include: ['_pages']
+include: ['_posts']
 include: ['portfolio']
 excerpt_separator: <!--more-->
 
 
-# paginate: 4
-# paginate_path: "page:num/"
+paginate: 6
+paginate_path: "/blog/index:num.html"

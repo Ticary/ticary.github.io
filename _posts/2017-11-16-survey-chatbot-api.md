@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A survey of the latest chatbot API’s
-permalink: survey-chatbot-api.html
+<!--permalink: survey-chatbot-api.html-->
 author: Rutu Mulkar-Mehta
 comments: true
 ---

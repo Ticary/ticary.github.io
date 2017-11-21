@@ -3,7 +3,7 @@ layout: post
 title: The Math behind Lucene
 tags: tf-idf cosine-similarity lucene elastic-search
 comments: true
-permalink: math_behind_lucene.html
+<!--permalink: math_behind_lucene.html-->
 author: Ticary Team
 ---
 [Lucene](https://lucene.apache.org/) is an open source search engine, that one can use on top of custom data and create your own [search engine](https://en.wikipedia.org/wiki/Search_engine_(computing)) - like your own personal google. In this post, we will go over the basic math behind Lucene, and how it [ranks documents](https://en.wikipedia.org/wiki/Ranking_(information_retrieval)) to the input [search query](https://en.wikipedia.org/wiki/Web_search_query).

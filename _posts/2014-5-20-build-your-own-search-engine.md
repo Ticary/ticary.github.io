@@ -2,7 +2,7 @@
 layout: post
 title: Build your own Search Engine
 tags: elastic-search lucene tf*idf
-permalink: search_engine.html
+<!--permalink: search_engine.html-->
 author: Rutu Mulkar-Mehta
 ---
 

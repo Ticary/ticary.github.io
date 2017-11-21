@@ -1,0 +1,70 @@
+---
+layout: default_blog
+---
+
+<header class="main-header">
+    <div class="container">
+        <h1 class="page-title">Ticary AI Magazine</h1>
+
+        <ol class="breadcrumb pull-right">
+<!--             <li><a href="#">Blog</a></li>
+            <li class="active">Blog Masonry</li> -->
+        </ol>
+    </div>
+</header>
+
+
+  
+  <div class="container">
+      <div class="row masonry-container">
+          {% for post in paginator.posts %}
+          <div class="col-md-4 col-sm-6 masonry-item blog-item wow fadeInUp">
+              <div class="thumbnail">
+                  <div class="caption">
+                      <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                      <p>{{ post.excerpt }}</p>
+                      <hr class="dotted">
+                      <span class="autor-post">
+                          Author: {{ post.author }}<br>
+                          Date: {{ post.date | date_to_long_string }}
+                      </span>
+                      <a href="{{ post.url}}" class="btn btn-ar btn-primary pull-right" role="button">Read more &raquo;</a>
+                      <div class="clearfix"></div>
+                  </div>
+              </div>
+          </div>
+          {% endfor %} <!-- masonry-item  -->
+      </div> <!-- masonry-container  -->
+  </div> <!-- container  -->
+
+
+{% if paginator.total_pages > 1 %}
+<div class="row">
+<section class="text-center">
+  <ul class="pagination pagination-lg pagination-border">
+    {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+    {% else %}
+    <li class="disabled"><a href="#">&laquo;</a></li>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <li class="active"><a href="#">{{ page }}</a></li>
+      {% elsif page == 1 %}
+        <li> <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+      {% else %}
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+    {% else %}
+      <li class="disabled"><a href="#">&raquo;</a></li>
+      <!-- <span></span> -->
+    {% endif %}
+  </ul>
+</section>
+</div>
+{% endif %}
