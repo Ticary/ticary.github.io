@@ -4,7 +4,7 @@ title: What is Natural Language Processing (NLP)?
 tags: Machine-Learning NLProc
 author: Rutu Mulkar-Mehta
 ---
-![Image Credit: http://www.contrib.andrew.cmu.edu/](https://ticary.com/assets/img/NLP.png){:class="img-responsive" .center-image}
+<img src="https://ticary.com/assets/img/NLP.png" class="img-responsive center-image" width="1000px"/>
 
 Last year [I wrote a highly popular blog post about Natural Language Processing, Machine Learning, and Deep Learning](http://rutumulkar.com/blog/2016/NLP-ML). 
 
