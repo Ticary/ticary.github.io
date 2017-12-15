@@ -2,7 +2,6 @@
 layout: post
 title: Design Principles for Data Science Projects
 tags: data-science NLProc design-principles
-permalink: data_science_design_principles.html
 author: Rutu Mulkar-Mehta
 ---
 
