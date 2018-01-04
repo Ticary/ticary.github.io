@@ -5070,14 +5070,14 @@ input.input-lg[type="text"] {
 /* Home Full */
 /*-------------------------------------------------------------------*/
 #header-full {
-  background-image: url("../img/back.jpg");
+  background-image: url("../img/plan.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 }
 .wrap-primary {
   background-color: #148ca4;
-  background-color: rgba(0, 64, 90, 0.7);
+  background-color: rgba(9, 65, 77, 0.75);
   padding: 40px 0;
 }
 #header-full .secondary-color {
@@ -5763,7 +5763,7 @@ a.feature-icon:hover {
 }
 .header-full-title h1 span,
 .header-full-title h1 span a {
-  color: #e7b73c;
+  color: #d6a11a;
 }
 .header-full-title p {
   margin-bottom: 15px;
