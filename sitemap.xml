@@ -7,45 +7,78 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://ticary.com/</loc>
+  <loc>https://ticary.com/</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://ticary.com/index.html</loc>
+  <loc>https://ticary.com/index.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/portfolio.html</loc>
+  <loc>https://ticary.com/portfolio.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/services.html</loc>
+  <loc>https://ticary.com/services.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/tai_magazine.html</loc>
+  <loc>https://ticary.com/testimonials.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/about_us.html</loc>
+  <loc>https://ticary.com/blog/index.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/contact_us.html</loc>
+  <loc>https://ticary.com/about_us.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/nlp_ml_dl.html</loc>
+  <loc>https://ticary.com/contact_us.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/online_word2vec.html</loc>
+  <loc>https://ticary.com/timeline.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ticary.com/life_skills_grad_school.html</loc>
+  <loc>https://ticary.com/2017/12/12/what-is-nlp.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://ticary.com/basic_statistics.html</loc>
+  <loc>https://ticary.com/2017/11/16/survey-chatbot-api.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://ticary.com/intro_to_probability.html</loc>
+  <loc>https://ticary.com/2017/01/16/chatbot-cool-where-headed.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://ticary.com/search_engine.html</loc>
+  <loc>https://ticary.com/2016/08/08/NLP-ML.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://ticary.com/math_behind_lucene.html</loc>
+  <loc>https://ticary.com/2015/08/22/word2vec.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ticary.com/2015/06/29/What-Grad-School-Taught-me.html</loc>
+  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 </urlset>
