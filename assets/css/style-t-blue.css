@@ -3287,7 +3287,7 @@ a.thumbnail.active {
   font-family: "Muli", sans-serif;
   word-spacing: -6px;
   -webkit-text-stroke: 0;
-  background-image: url("../img/share_white.svg");
+  background-image: url("../img/share_white.png");
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 48px;
@@ -5759,7 +5759,7 @@ a.feature-icon:hover {
   float: left;
   overflow: hidden;
   padding-left: 80px;
-  background-image: url("../img/share.svg");
+  background-image: url("../img/share.png");
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -6158,7 +6158,7 @@ a.feature-icon:hover {
   box-shadow: none;
 }
 .navbar-inverse .navbar-brand {
-  background-image: url("assets/img/share_white.svg");
+  background-image: url("assets/img/share_white.png");
 }
 .navbar-inverse .navbar-brand {
   color: #fff;
