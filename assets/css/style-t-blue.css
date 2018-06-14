@@ -3290,7 +3290,7 @@ a.thumbnail.active {
   background-image: url("../img/share_white.png");
   background-position: left center;
   background-repeat: no-repeat;
-  padding-left: 48px;
+  padding-left: 40px;
   padding-top: 15px;
   color: #000;
 }
