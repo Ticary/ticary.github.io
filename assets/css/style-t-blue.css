@@ -5306,7 +5306,7 @@ a.feature-icon:hover {
   right: 0;
 }
 .title-logo {
-  /*background-image: url("../img/colors/blue/logo50.png");*/
+  background-image: url("../img/share.png");
   background-repeat: no-repeat;
   background-position: center top;
   font-size: 3em;
@@ -5314,8 +5314,8 @@ a.feature-icon:hover {
   font-family:  "Muli", "Lato", sans-serif; 
   /*"Reckoner",*/
   color: #000;
-  /*padding-top: 70px;*/
-  margin-bottom: 20px;
+  padding-top: 70px;
+  margin-bottom: 10px;
   text-align: center;
   color: #148ca4;
 }
