@@ -23,6 +23,10 @@ td{
 tr:nth-child(even){background-color: #f2f2f2;}
 tr:hover {background-color: #ddd;}
 
+a.nav123{
+  font-family: Lato;
+  font-weight: 300;
+}
 section.post {
   font-size: 1.2em;
 }
@@ -3344,7 +3348,7 @@ a.thumbnail.active {
   word-spacing: -6px;
   -webkit-text-stroke: 0;
   background-image: url("../img/share_white.png");
-  background-position: left center;
+  background-position: left;
   background-repeat: no-repeat;
   padding-left: 40px;
   padding-top: 15px;
@@ -5187,7 +5191,7 @@ input.input-lg[type="text"] {
   font-family: "Muli", "Lato", sans-serif;
 }
 .head-title {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 300;
   text-align: left;
   color: #fff !important;
@@ -5238,13 +5242,13 @@ input.input-lg[type="text"] {
     margin-top: 40px;
   }
   .head-title {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
     color: #fff !important;
   }
   .head-subtitle {
-    font-size: 2em;
+    /*font-size: 2em;*/
   }
 }
 /* ---------------------------------------------------- */
@@ -5362,7 +5366,7 @@ a.feature-icon:hover {
   right: 0;
 }
 .title-logo {
-  background-image: url("../img/share.png");
+  /*background-image: url("../img/share.png");*/
   background-repeat: no-repeat;
   background-position: center top;
   font-size: 3em;
@@ -6215,7 +6219,7 @@ a.feature-icon:hover {
   box-shadow: none;
 }
 .navbar-inverse .navbar-brand {
-  background-image: url("assets/img/share_white.png");
+  background-image: url("assets/img/logo.png");
 }
 .navbar-inverse .navbar-brand {
   color: #fff;
