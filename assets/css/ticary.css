@@ -23,8 +23,8 @@ td{
 tr:nth-child(even){background-color: #f2f2f2;}
 tr:hover {background-color: #ddd;}
 
-a.nav123{
-  font-family: Lato;
+p.test{
+  font-family: 'Oswald';
   font-weight: 300;
 }
 section.post {
