@@ -17,5 +17,5 @@ include: ['portfolio']
 excerpt_separator: <!--more-->
 
 plugins: [jekyll-paginate]
-paginate: 6
+paginate: 10
 paginate_path: "/blog/index:num.html"
