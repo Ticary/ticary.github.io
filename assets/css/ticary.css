@@ -2,6 +2,26 @@
 
 /* Rutu Custom*/
 /* table styling for markdown*/
+.container1 {
+    width: 450px;
+    overflow: auto;
+    padding: 1em;
+    background: #000;
+    margin: auto;
+}
+.cube {
+    float: left;
+    background: #FFF;
+    text-align: center;
+    line-height: 150px;
+    width: 150px; height: 150px;
+}
+
+.cube:nth-of-type(2n) {
+    background: #DDF;
+}
+
+
 table{
     border-collapse: collapse;
     border-spacing: 10;
@@ -3249,11 +3269,11 @@ textarea.form-control:focus {
   position: relative;
   transition: all .25s ease;
 }
-a.thumbnail:hover,
+/*a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
   border-color: #148ca4;
-}
+}*/
 .thumbnail.thumbnail-round {
   border-radius: 5px;
 }
