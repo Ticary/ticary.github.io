@@ -5,6 +5,8 @@ tags: grad-school life-skills phd
 <!--permalink: life_skills_grad_school.html-->
 author: Rutu Mulkar-Mehta
 ---
+<img src="https://cdn-images-1.medium.com/max/800/1*2Vktb8hsjJjzMvE28d1iKQ.jpeg" class="img-responsive center-image" width="1000px">
+
 I have spent a large chunk of my life in grad school - getting my masters and Ph.D. Looking back, I feel like grad school helped me learn things that were not even on the syllabus:
 
 Here are some life skills I learned in grad school - in no particular order

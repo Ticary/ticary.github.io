@@ -2,13 +2,7 @@
 
 /* Rutu Custom*/
 /* table styling for markdown*/
-.container1 {
-    width: 450px;
-    overflow: auto;
-    padding: 1em;
-    background: #000;
-    margin: auto;
-}
+
 .cube {
     float: left;
     background: #FFF;
@@ -68,6 +62,9 @@ section.post {
     margin: 0 auto;
     display: block;
 }
+
+
+
 
 .blinking-cursor {
   font-weight: 100;
@@ -7782,3 +7779,12 @@ Image placeholders: placemi.com
 }
 
 /*# sourceMappingURL=style-blue.css.map */
+
+tag { 
+    color: #e47f2f;
+    background-color: #000;
+    padding: 3px;
+    font-size: .7rem;
+    font-weight: bold;
+    border-radius: 5px;
+}

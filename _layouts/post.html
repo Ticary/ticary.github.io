@@ -20,14 +20,19 @@ layout: default_blog
         	<br> -->
 
             <section class="post">
-
                 <h2 class="page-header no-margin-top">{{ page.title }}</h2>
+
                   <div class="animated fadeInLeft">
                   <!-- <article class="post-content"> -->
 				    {{ content }}
 				  <!-- </article> -->
-				</div>
+				 </div>
             </section>
+<!--             <tags>
+                {% for tag in page.tags %}
+                <tag>{{tag}}</tag>
+                {% endfor %}
+            </tags> -->
             <section>
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -68,13 +73,3 @@ layout: default_blog
         </div>
     </div>
 </div> <!-- container  -->
-
-
-<script src="assets/js/vendors.js"></script>
-<script src="assets/js/syntaxhighlighter/shCore.js"></script>
-<script src="assets/js/syntaxhighlighter/shBrushXml.js"></script>
-<script src="assets/js/syntaxhighlighter/shBrushJScript.js"></script>
-<script src="assets/js/DropdownHover.js"></script>
-<script src="assets/js/app.js"></script>
-<script src="assets/js/holder.js"></script>
-<script src="assets/js/portfolio.js"></script>
