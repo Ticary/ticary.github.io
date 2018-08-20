@@ -6,104 +6,112 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://ticary.com/</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ticary.com/index.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ticary.com/portfolio.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ticary.com/services.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ticary.com/testimonials.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ticary.com/blog/index.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ticary.com/about_us.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ticary.com/contact_us.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ticary.com/timeline.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ticary.com/contact_us.html</loc>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ticary.com/services.html</loc>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ticary.com/2018/08/15/algorithmia.html</loc>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ticary.com/2018/03/15/nvidia.html</loc>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ticary.com/2017/12/12/what-is-nlp.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2017/11/16/survey-chatbot-api.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2017/01/16/chatbot-cool-where-headed.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2016/08/08/NLP-ML.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2015/08/22/word2vec.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2015/06/29/What-Grad-School-Taught-me.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://ticary.com/blog/index2.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://ticary.com/2015/05/10/statistics-for-everyone.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2014/07/07/all-about-that-bayes-intro-to-probability.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2014/05/20/build-your-own-search-engine.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ticary.com/2014/04/20/math-behind-lucene.html</loc>
-  <lastmod>2018-01-05T20:33:40+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-08-19T20:24:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
