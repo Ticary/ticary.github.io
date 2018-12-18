@@ -3,7 +3,7 @@ layout: post
 title: Build your own Search Engine
 tags: elastic-search lucene tf*idf
 <!--permalink: search_engine.html-->
-author: Rutu Mulkar-Mehta
+author: Rutu Mulkar
 ---
 
 In this post, I will take you through the steps for calculating the $$tf \times idf$$ values for all the words in a given document. To implement this, we use a small dataset (or corpus, as NLPers like to call it) form the [Project Gutenberg Catalog](http://www.gutenberg.org/). This is just a simple toy example on a very small dataset. In real life we use much larger [corpora](https://en.wikipedia.org/wiki/Text_corpus), and need some more sophisticated tools in order to handle large amounts of data. To brush up on the basic concepts of $$tf \times idf$$ you might want to check out my post on the [The Math behind Lucene](http://ticary.com/math_behind_lucene.html).

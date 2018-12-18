@@ -5834,10 +5834,13 @@ a.feature-icon:hover {
 .header-full {
   /*background-image: linear-gradient(to top, #f0f0f0, #f4f4f4);*/
   background-color: #fff;
+    padding-top: 10px;
+  padding-bottom: 10px;
 }
 .header-full-title {
   float: left;
   overflow: hidden;
+
   /*padding-left: 80px;*/
   /*background-image: url("../img/share.png");*/
   background-repeat: no-repeat;

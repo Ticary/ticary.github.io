@@ -3,7 +3,7 @@ layout: post
 title: 8 life skills that I learned from Grad school
 tags: grad-school life-skills phd
 <!--permalink: life_skills_grad_school.html-->
-author: Rutu Mulkar-Mehta
+author: Rutu Mulkar
 ---
 <img src="https://cdn-images-1.medium.com/max/800/1*2Vktb8hsjJjzMvE28d1iKQ.jpeg" class="img-responsive center-image" width="1000px">
 

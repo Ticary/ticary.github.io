@@ -2,7 +2,7 @@
 layout: post
 title: Ticary is officially a certified partner of Algorithmia
 tags: partnership hosting machine-learning
-author: Rutu Mulkar-Mehta
+author: Rutu Mulkar
 ---
 <img src="https://ticary.com/assets/img/algorithmia.jpg" class="thumbnail img-responsive center-image" width="500px" />
 

@@ -3,7 +3,7 @@ layout: post
 title: Understanding your Data - Basic Statistics
 tags: statistics standard-deviation variance mean SEM
 <!--permalink: basic_statistics.html-->
-author: Rutu Mulkar-Mehta
+author: Rutu Mulkar
 ---
 
 

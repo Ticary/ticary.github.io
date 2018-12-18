@@ -2,7 +2,7 @@
 layout: post
 title: Why are Chatbots cool, and where are they headed?
 <!--permalink: chatbot-cool-where-headed.html-->
-author: Rutu Mulkar-Mehta
+author: Rutu Mulkar
 comments: true
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*FjckhTVDAcg3spFqG-k05Q.jpeg){:class="img-responsive" .center-image}

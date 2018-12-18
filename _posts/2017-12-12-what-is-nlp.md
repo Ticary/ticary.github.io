@@ -2,7 +2,7 @@
 layout: post
 title: What is Natural Language Processing (NLP)?
 tags: Machine-Learning NLProc
-author: Rutu Mulkar-Mehta
+author: Rutu Mulkar
 ---
 <img src="https://ticary.com/assets/img/NLP.png" class="img-responsive center-image" width="1000px"/>
 
